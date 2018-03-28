@@ -1,0 +1,80 @@
+/* @font-face {
+    font-family: burgerfont;
+    src: url(../fonts/burgerFont.ttf);
+} */
+
+body{
+    
+    /* font-family: burgerfont; */
+    background-image: url(https://image.freepik.com/free-vector/burger-pattern-background_1457-8.jpg)
+}
+
+#header{
+    text-align: center;
+    color:brown;
+    font-weight: bold;
+    font-size: 500%;
+}
+
+.change-eat {
+    -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  text-shadow: 5px 1px 3px #2e2e2e;
+  font-family: Arial;
+  color: #f8f1bd;
+  font-size: 24px;
+  background:  #806423;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  }
+  
+  .change-eat:hover {
+    background: #35d400;
+    text-decoration: none;
+  }
+
+#addBurger{
+    text-align: center;
+    background-color: #f8f1bd;
+    border: #806423;
+    border-width: 3px;
+    border-style: double;
+}
+
+.add{
+    -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  text-shadow: 5px 1px 3px #2e2e2e;
+  font-family: Arial;
+  color: #f8f1bd;
+  font-size: 12px;
+  background:  #806423;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  }
+
+.burgerEaten{
+    font-size: 35px;
+    text-decoration: line-through;
+}
+
+#uneatenBurgs{
+    background-color: #f8f1bd;
+    border: #806423;
+    border-width: 3px;
+    border-style: double;
+}
+
+.subheading{
+    color:  #806423;
+    text-decoration: underline;    
+}
+
+#eatenBurgs{
+    background-color: #f8f1bd;
+    border: #806423;
+    border-width: 3px;
+    border-style: double;
+}
